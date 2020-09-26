@@ -26,7 +26,7 @@ hash_type = input("Enter hash type: ")
 if hash_type == "md":
   
   for word in dict_file:
-    enc_wrd =word.encode('utf-8')
+    enc_wrd = word.encode('utf-8')
     digest =hashlib.md5(enc_wrd.strip()).hexdigest()
     # print(word)
     # print(digest)
