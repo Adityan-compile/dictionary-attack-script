@@ -22,9 +22,6 @@ if hash_type == "md":
   for word in dict_file:
     enc_wrd = word.encode('utf-8')
     digest =hashlib.md5(enc_wrd.strip()).hexdigest()
-    # print(word)
-    # print(digest)
-    # print(pass_hash)
     if digest.strip() == pass_hash.strip():
         print("password found")
         print("Password is " + word)
@@ -41,9 +38,6 @@ if flag == 0:
       for word in dict_file:
     enc_wrd =word.encode('utf-8')
     digest =hashlib.sha256(enc_wrd.strip()).hexdigest()
-    # print(word)
-    # print(digest)
-    # print(pass_hash)
     if digest.strip() == pass_hash.strip():
         print("password found")
         print("Password is " + word)
@@ -58,9 +52,6 @@ if flag == 0:
         for word in dict_file:
     enc_wrd =word.encode('utf-8')
     digest =zlib.crc32(enc_wrd.strip()).hexdigest()
-    # print(word)
-    # print(digest)
-    # print(pass_hash)
     if digest.strip() == pass_hash.strip():
         print("password found")
         print("Password is " + word)
