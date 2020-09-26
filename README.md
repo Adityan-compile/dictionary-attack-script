@@ -4,11 +4,12 @@
 + ### Author: https://github.com/Adityan-compile
 
 #### Instructions:
++ Download a password list file from the  web
 + Drop your password list file in the src folder.
 + Run the script. 
-+ You will be prompted to enter the hashed password , filename and hash type..
++ You will be prompted to enter the hashed password , filename and hash type.
 + Enter the values and wait for the script to run.
-+ Your cracked password will be displayed in the screen.
++ Your cracked password will be displayed in your terminal window. 
 
 #### Language:
 + Python
