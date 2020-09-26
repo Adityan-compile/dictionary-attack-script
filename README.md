@@ -4,8 +4,9 @@
 + ### Author: https://github.com/Adityan-compile
 
 #### Instructions:
-+ Download a password list file from the  web
-+ Drop your password list file in the src folder.
++ Download a password list file from the  web.
++ You can download a password list from this link: http://www.mediafire.com/file/glyzo6ubjgo0n7k/14_million_pass.rar/file
++ Drop your password list file in the source(src) folder.
 + Run the script. 
 + You will be prompted to enter the hashed password , filename and hash type.
 + Enter the values and wait for the script to run.
