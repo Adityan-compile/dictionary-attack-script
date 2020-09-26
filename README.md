@@ -11,4 +11,4 @@
 
 ### Warning:
 + This script is written for educational purposes only.
-+ The author shall not be held liable for the usage of this software illegally or with any malicious intent.
++ The author shall not be held liable for the usage of this script illegally or with any malicious intent.
