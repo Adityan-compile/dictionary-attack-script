@@ -7,10 +7,10 @@ flag = 0
 
 input_hash = input("Enter hashed password: ")
 
-input_file = input("Enter fine name: ")
+input_file = input("Enter file name: ")
 
 try:
-    dict_file = open(dictionary_file,"r")
+    dict_file = open(input_file,"r")
 except:
     print("No file found :(")
     quit()
@@ -37,8 +37,8 @@ if flag == 0:
     
     
     elif hash_type == "sha-256":
+
       for word in dict_file:
- 
     enc_wrd =word.encode('utf-8')
     digest =hashlib.sha256(enc_wrd.strip()).hexdigest()
     # print(word)
@@ -54,7 +54,8 @@ if flag == 0:
     print("password not in list")
     
    elif hash_type == "crc-32":
-            for word in dict_file:
+    
+        for word in dict_file:
     enc_wrd =word.encode('utf-8')
     digest =zlib.crc32(enc_wrd.strip()).hexdigest()
     # print(word)
