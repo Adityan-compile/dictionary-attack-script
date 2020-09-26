@@ -16,6 +16,7 @@
 
 #### Libraries:
 + Hashlib
++ Zlib
 
 ### Warning:
 + This script is written for educational purposes only.
